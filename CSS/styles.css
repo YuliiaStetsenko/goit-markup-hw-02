@@ -1,1 +1,134 @@
-:root
+:root {
+    --color-web-blue: #2196F3;
+}
+
+.visually-hidden {
+    position: absolute;
+      white-space: nowrap;
+      width: 1px;
+      height: 1px;
+      overflow: hidden;
+      border: 0;
+      padding: 0;
+      clip: rect(0 0 0 0);
+      clip-path: inset(50%);
+      margin: -1px;
+  }
+
+.list {
+    background-color:#FFFFFF ;
+}
+
+
+.service_sections {
+    background-color:#FFFFFF ;
+}
+ 
+.first_logo{
+    color: #2196F3;
+    color: #000000;
+}
+
+.nav_studio,.nav_mail{
+    color: #2196F3;
+}
+
+.nav_portfolio,.nav_contacts {
+    color: #212121;
+}
+
+.nav_tel{
+    color: #757575;
+}
+
+.order_service {
+    background-color:#2F303A;
+    }
+
+    .title_orde_service{
+        color: #FFFFFF;
+        width: 696px;
+        height: 120px;
+        left: 452px;
+        top: 280px;
+
+       font-family: 'Roboto';
+      font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 60px;
+/* or 136% */
+
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+    }
+
+    .order_button {
+    background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+
+.about_us {
+
+}
+
+.title_about_us {
+    color: #212121;
+}
+ .text_about_us{
+    color:#757575 ;
+ }
+
+
+
+ .what_we_do {
+
+ }
+ .title_what_we_do {
+    color: #212121;
+ }
+ 
+
+
+ .our_team {
+    background-color:#F5F4FA ;
+ }
+ .title_our_team{
+    color: #212121;
+ }
+ .partner{
+    color: #212121;
+    background-color:#FFFFFF ;
+    width: 270px;
+    height: 368px;
+    left: 215px;
+    top: 1632px;
+ }
+ .item_partner {
+    color: #757575;
+ }
+  
+.second_logo{
+    color:#2196F3 ;
+    color: #FFFFFF;
+}
+
+ .contacts {
+    background-color:#2F303A ;
+ }
+ .address {
+
+ }
+ .item_maps {
+    color: #FFFFFF;
+ }
+ .item_mail {
+    color: #FFFFFF99;
+
+ }
+ .item_tel {
+    color: #FFFFFF99;
+    ; 
+ }
