@@ -22,23 +22,35 @@
 
 .service_sections {
     background-color:#FFFFFF ;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+top: 0px;
 }
  
 .first_logo{
     color: #2196F3;
     color: #000000;
+    text-decoration: none;
+}
+
+.item_web{
+    color: #2196F3;
 }
 
 .nav_studio,.nav_mail{
     color: #2196F3;
+    text-decoration: none;
 }
 
 .nav_portfolio,.nav_contacts {
     color: #212121;
+    text-decoration: none;
 }
 
 .nav_tel{
     color: #757575;
+    text-decoration: none;
 }
 
 .order_service {
@@ -113,6 +125,7 @@ text-transform: uppercase;
 .second_logo{
     color:#2196F3 ;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
  .contacts {
@@ -123,12 +136,16 @@ text-transform: uppercase;
  }
  .item_maps {
     color: #FFFFFF;
+    text-decoration: none;
  }
+
  .item_mail {
     color: #FFFFFF99;
-
+    text-decoration: none;
  }
  .item_tel {
     color: #FFFFFF99;
-    ; 
+    text-decoration: none;
  }
+
+ 
