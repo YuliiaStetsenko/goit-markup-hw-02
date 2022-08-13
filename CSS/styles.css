@@ -53,9 +53,19 @@ color: #757575;
     list-style: none;
 }
 
+
   .link{
     text-decoration: none;
   }
+
+.service_sections {
+    background-color:#FFFFFF ;
+    width: 1600px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
  
   .first_logo{
 font-family: 'Raleway',sans-serif;
@@ -66,13 +76,36 @@ line-height: 1.19;
 letter-spacing: 0.03em;
     color: #000000;
     text-decoration: none;
+
+}
+
+.item_web{
+    color: #2196F3;
+
 }
  .item_web{
     color: #2196F3;
+
  }
 
 
 .section_main {
+
+    text-decoration: none;
+}
+
+.nav_portfolio,.nav_contacts {
+    color: #212121;
+    text-decoration: none;
+}
+
+.nav_tel{
+    color: #757575;
+    text-decoration: none;
+}
+
+.order_service {
+
     background-color:#2F303A;
     }
 
@@ -129,8 +162,6 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color:#757575 ;
  }
-
-
 
  .section_what_we_do {
 
@@ -226,6 +257,7 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: #FFFFFF;
  }
+
  .link_mail, .link_tel {
 font-family: 'Roboto',sans-serif;
 font-style: normal;
@@ -235,3 +267,20 @@ line-height: 1.71;
 letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
  }
+
+ .item_maps {
+    color: #FFFFFF;
+    text-decoration: none;
+ }
+
+ .item_mail {
+    color: #FFFFFF99;
+    text-decoration: none;
+ }
+ .item_tel {
+    color: #FFFFFF99;
+    text-decoration: none;
+ }
+
+ 
+
