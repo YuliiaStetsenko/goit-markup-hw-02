@@ -1,6 +1,7 @@
 :root {
-    --color-web-blue: #2196F3;
+
 }
+ 
 
 .visually-hidden {
     position: absolute;
@@ -15,90 +16,162 @@
       margin: -1px;
   }
 
+  img {
+    display: block;
+  }
+
+.menu_link  {
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #212121;
+}
+.contact_link {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: #757575;
+}
+
+.menu_link:hover , .contact_link:hover {
+    color:#2196F3;
+}
+  
+  
+  
+  body {
+    background-color:#FFFFFF ;
+}
+
 .list {
-    background-color:#FFFFFF ;
+    list-style: none;
 }
 
-
-.service_sections {
-    background-color:#FFFFFF ;
-}
+  .link{
+    text-decoration: none;
+  }
  
-.first_logo{
-    color: #2196F3;
+  .first_logo{
+font-family: 'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color: #000000;
+    text-decoration: none;
 }
-
-.nav_studio,.nav_mail{
+ .item_web{
     color: #2196F3;
-}
+ }
 
-.nav_portfolio,.nav_contacts {
-    color: #212121;
-}
 
-.nav_tel{
-    color: #757575;
-}
-
-.order_service {
+.section_main {
     background-color:#2F303A;
     }
 
-    .title_orde_service{
-        color: #FFFFFF;
-        width: 696px;
-        height: 120px;
-        left: 452px;
-        top: 280px;
-
-       font-family: 'Roboto';
-      font-style: normal;
+    .title_main{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
 font-weight: 900;
 font-size: 44px;
-line-height: 60px;
-/* or 136% */
-
+line-height: 1.36;
 text-align: center;
 letter-spacing: 0.06em;
 text-transform: uppercase;
-    }
+color: #FFFFFF;
+     }
 
-    .order_button {
-    background-color: #2196F3;
+    .btn_main {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 16px;
+line-height: 1.86;
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: 0.06em;
+        background-color: #2196F3;
     color: #FFFFFF;
 }
 
 
-.about_us {
+.section_about_us {
 
 }
 
+.about_us{
+
+}
 .title_about_us {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.03em;
+text-transform: uppercase;
     color: #212121;
 }
  .text_about_us{
-    color:#757575 ;
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color:#757575 ;
  }
 
 
 
- .what_we_do {
+ .section_what_we_do {
 
- }
- .title_what_we_do {
-    color: #212121;
  }
  
+ .title_what_we_do {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+    color: #212121;
+ }
+ .what_we_do{
+ 
+}
+ 
 
-
- .our_team {
+ .section_our_team {
     background-color:#F5F4FA ;
  }
  .title_our_team{
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
     color: #212121;
  }
- .partner{
+
+ .our_team{
+
+
+ }
+ 
+ 
+ .content_our_team {
     color: #212121;
     background-color:#FFFFFF ;
     width: 270px;
@@ -106,29 +179,59 @@ text-transform: uppercase;
     left: 215px;
     top: 1632px;
  }
- .item_partner {
+
+ .subtitle_our_team {
+    font-family:'Roboto',sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align:center;
+    letter-spacing: 0.03em;
+ }
+
+ .item_our_team {
+font-family:'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 1.19;
+text-align: center;
+letter-spacing: 0.03em;
     color: #757575;
  }
   
 .second_logo{
+font-family:'Raleway',sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 26px;
+line-height: 1.19;
+letter-spacing: 0.03em;
     color:#2196F3 ;
     color: #FFFFFF;
+    text-decoration: none;
 }
 
- .contacts {
+  .contacts_footer{
     background-color:#2F303A ;
+    
  }
- .address {
-
+ .link_map{
+font-family: 'Roboto', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: #FFFFFF;
  }
- .item_maps {
-    color: #FFFFFF;
- }
- .item_mail {
-    color: #FFFFFF99;
-
- }
- .item_tel {
-    color: #FFFFFF99;
-    ; 
+ .link_mail, .link_tel {
+font-family: 'Roboto',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
  }
