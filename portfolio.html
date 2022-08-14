@@ -5,39 +5,41 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Студія</title>
+  
   <link rel="stylesheet" href="./CSS/styles.css">
 </head>
 <body>
   <!--Header-->
-    <header>
-      <nav>
-          <a  href="./index.html">WebStudio</a>
-          <ul>
-            <li><a href="./index.html">Студія</a></li>
-            <li><a href="#">Портфоліо</a></li>
-            <li><a href="#">Контакти</a></li>
-          </ul>
-      </nav>
-      
-          <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+380961111111</a></li>
-          </ul>
+  <header class="page_header">
+    <nav class="page_nav">
+        <a class="first_logo" href="./index.html"> <span class="item_web">Web</span>Studio</a>
+        <ul class="menu list">
+          <li class="menu_item"><a class="menu_link link" href="./index.html">Студія</a></li>
+          <li class="menu_item"><a class="menu_link link" href="./portfolio.html">Портфоліо</a></li>
+          <li class="menu_item"><a class="menu_link link" href="#">Контакти</a></li>
+        </ul>
+    </nav>
     
-    </header>
+        <ul class="contacts_header list">
+          <li class="contact_mail"><a class="contact_link link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+          <li class="contact_tel"><a class="contact_link link" href="tel:+380961111111">+380961111111</a></li>
+        </ul>
+  
+  </header>
+  
     
      <!--Main-->
       <main>
         <section>
-          <h2>Кнопки</h2>
-          <button hype="button">Усі</button>
+          <h2 class="visually-hidden">Кнопки</h2>
+          <button class="" type="button">Усі</button>
           <button type="button">Веб-сайти</button>
           <button type="button">Додатки</button>
           <button type="button">Дизайн</button>
           <button type="button">Маркетинг</button>
         </section>
         <section>
-          <h2>Послуги</h2>
+          <h2 class="visually-hidden">Послуги</h2>
           <ul>
             <li>
               <img src="./images-portfolio/tehnokriak.jpg" alt="технокряк">
@@ -90,6 +92,7 @@
       </main>
      <!--Footer-->
       <footer>
+        <h2 class="visually-hidden">Контакти</h2>
         <a  href="./index.html">WebStudio</a>
         <address>
           <ul>

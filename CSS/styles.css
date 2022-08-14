@@ -1,7 +1,6 @@
 :root {
-
+    --brand-color:
 }
- 
 
 .visually-hidden {
     position: absolute;
@@ -16,13 +15,46 @@
       margin: -1px;
   }
 
+  .list {
+    list-style: none;
+}
+
+  .link{
+    text-decoration: none;
+  }
+
   img {
     display: block;
   }
 
-.menu_link  {
-font-family: 'Roboto', sans-serif;
-font-style: normal;
+  button {
+    font-family: inherit;
+    cursor: pointer;
+    
+  }
+
+body {
+    font-family: 'Roboto',sans-serif;
+    color: #000000;
+    background-color: #FFFFFF;
+}
+
+  .first_logo{
+    font-family: 'Raleway',sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+        color: #000000;
+        text-decoration: none;
+    
+    }
+    .item_web{
+        color: #2196F3;
+    }
+ 
+    .menu_link  {
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -30,8 +62,6 @@ letter-spacing: 0.02em;
 color: #212121;
 }
 .contact_link {
-font-family: 'Roboto',sans-serif;
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.14;
@@ -39,78 +69,18 @@ letter-spacing: 0.02em;
 color: #757575;
 }
 
-.menu_link:hover , .contact_link:hover {
-    color:#2196F3;
+.menu_link:hover , .contact_link:hover, 
+.menu_link:focus , .contact_link:focus
+ {
+ color:#2196F3;
 }
-  
-  
-  
-  body {
-    background-color:#FFFFFF ;
-}
-
-.list {
-    list-style: none;
-}
-
-
-  .link{
-    text-decoration: none;
-  }
-
-.service_sections {
-    background-color:#FFFFFF ;
-    width: 1600px;
-    height: 80px;
-    left: 0px;
-    top: 0px;
-}
-
- 
-  .first_logo{
-font-family: 'Raleway',sans-serif;
-font-style: normal;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
-letter-spacing: 0.03em;
-    color: #000000;
-    text-decoration: none;
-
-}
-
-.item_web{
-    color: #2196F3;
-
-}
- .item_web{
-    color: #2196F3;
-
- }
-
 
 .section_main {
-
-    text-decoration: none;
-}
-
-.nav_portfolio,.nav_contacts {
-    color: #212121;
-    text-decoration: none;
-}
-
-.nav_tel{
-    color: #757575;
-    text-decoration: none;
-}
-
-.order_service {
-
     background-color:#2F303A;
-    }
+    text-decoration: none;
+}
 
     .title_main{
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 900;
 font-size: 44px;
@@ -122,8 +92,6 @@ color: #FFFFFF;
      }
 
     .btn_main {
-font-family: 'Roboto',sans-serif;
-font-style: normal;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.86;
@@ -131,20 +99,17 @@ display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: 0.06em;
-        background-color: #2196F3;
+background-color: #2196F3;
+    color: #FFFFFF;
+}
+
+.btn_main:hover , .btn_main:focus {
+    background-color: #2196F3;
     color: #FFFFFF;
 }
 
 
-.section_about_us {
-
-}
-
-.about_us{
-
-}
 .title_about_us {
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 14px;
@@ -154,7 +119,6 @@ text-transform: uppercase;
     color: #212121;
 }
  .text_about_us{
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -163,12 +127,9 @@ letter-spacing: 0.03em;
 color:#757575 ;
  }
 
- .section_what_we_do {
 
- }
  
  .title_what_we_do {
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -177,16 +138,12 @@ text-align: center;
 letter-spacing: 0.03em;
     color: #212121;
  }
- .what_we_do{
- 
-}
- 
 
+ 
  .section_our_team {
     background-color:#F5F4FA ;
  }
  .title_our_team{
-font-family: 'Roboto',sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 36px;
@@ -195,12 +152,6 @@ text-align: center;
 letter-spacing: 0.03em;
     color: #212121;
  }
-
- .our_team{
-
-
- }
- 
  
  .content_our_team {
     color: #212121;
@@ -212,7 +163,6 @@ letter-spacing: 0.03em;
  }
 
  .subtitle_our_team {
-    font-family:'Roboto',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -222,7 +172,6 @@ letter-spacing: 0.03em;
  }
 
  .item_our_team {
-font-family:'Roboto',sans-serif;
 font-style: normal;
 font-weight: 400;
 font-size: 16px;
@@ -248,9 +197,8 @@ letter-spacing: 0.03em;
     background-color:#2F303A ;
     
  }
- .link_map{
-font-family: 'Roboto', sans-serif;
-font-style: normal;
+ .link_map {
+    font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -259,8 +207,7 @@ color: #FFFFFF;
  }
 
  .link_mail, .link_tel {
-font-family: 'Roboto',sans-serif;
-font-style: normal;
+    font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -268,19 +215,13 @@ letter-spacing: 0.03em;
 color: rgba(255, 255, 255, 0.6);
  }
 
- .item_maps {
-    color: #FFFFFF;
-    text-decoration: none;
+ .link_map:hover , .link_mail:hover , .link_tel:hover ,
+ .link_map:focus , .link_mail:focus , .link_tel:focus {
+    color: #2196F3;
  }
 
- .item_mail {
-    color: #FFFFFF99;
-    text-decoration: none;
- }
- .item_tel {
-    color: #FFFFFF99;
-    text-decoration: none;
- }
+
+
 
  
 
