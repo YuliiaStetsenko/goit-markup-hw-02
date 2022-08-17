@@ -1,12 +1,16 @@
 :root {
 --primary-font:'Roboto',sans-serif;
 --secondary-font:'Raleway',sans-serif;
+--first-logo-text-color:#000000;
 --primary-text-color-theme-light:#212121;
 --secondary-text-color-theme-light:#757575;
 --primary-text-color-theme-dark:#FFFFFF;
+--secondary-text-color-theme-dark:rgba(255, 255, 255, 0.6);
 --primary-background-color:#FFFFFF;
 --secondary-background-color:#2F303A;
 --accent-color:#2196F3;
+--team-buttons-background-color:#F5F4FA;
+
 }
 
 .visually-hidden {
@@ -53,7 +57,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-        color:var(--primary-text-color-theme-light);
+        color:var(--first-logo-text-color);
         text-decoration: none;
     
     }
@@ -149,7 +153,7 @@ letter-spacing: 0.03em;
 
  
  .section_our_team {
-    background-color:#F5F4FA ;
+    background-color:var(--team-buttons-background-color);
  }
  .title_our_team{
 font-style: normal;
@@ -219,7 +223,7 @@ font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
-color: rgba(255, 255, 255, 0.6);
+color:var(--secondary-text-color-theme-dark)
  }
 
  .link_map:hover , .link_mail:hover , .link_tel:hover ,
@@ -236,9 +240,11 @@ font-size: 16px;
 line-height: 1.62;
 text-align: center;
 letter-spacing: 0.03em;
-background: #F5F4FA;
+background:var(--team-buttons-background-color);
 color:var(--primary-text-color-theme-light);
 }
+
+
 
 .subtitle_services_main {
 font-weight: 700;
